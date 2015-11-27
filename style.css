@@ -1,25 +1,84 @@
 html,
 body {
   height: 100%;
+  margin:0;
+  font-size:40px;
 }
 
-.drawers {
-  position: absolute;
+p{
+  margin:0;
+}
+
+h1{
+  font-size:50px;
+  margin:10px;
+  color:white;
+  margin-left:50px;
+  margin-left:20px;
+}
+
+h2{
+  font-size:40px;
+  margin:10px;
+  margin-top:50px;
+  color:gray;
+}
+
+h3{
+  color:pink;
+  margin: 0;
+  font-size: 40px;
+}
+
+button{
+margin: 10px;
+height: 40px;
+width: 300px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header{
+position: absolute;
+height: 120px;
+top: 0px;
+background-color: orange;
+margin: 0px;
+opacity: 0.5;
+width: 100%;
+}
+
+.contents{
+  margin: 0px;
+  position: relative;
   width: 100%;
   height: 100%;
-  background: blue;
+  background-color:  whitesmoke;
 }
 
-.left-drawer {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+.top-image{
+  position: relative;
+  margin-bottom: 10px;
+}
+  /* 適用するプロパティ、変化する時間、変化する速度 */
+/*  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; */
+.sennshu{
+  position:absolute;
+  top:50%;
+  left:200px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
 }
 
-.content {
-  position: absolute;
-  width: 100%;
-  height: 10%;
-  background: orange;
-  opacity: 0.5;
+.botton-area{
+  text-align: center;
+  margin-top: 20px;
+}
+.twitter{
+  background: skyblue;
+
 }
