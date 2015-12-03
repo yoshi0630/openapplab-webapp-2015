@@ -5,29 +5,39 @@
     <meta charset="utf-8">
     <title>トップページ</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/snap.js/1.9.3/snap.css">
-    <!-- /*
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
-    <script src="https://cdnjs.cloudflar.com/ajax/libs/snap.js/1.9.3/snap.js"></script>
-    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.js/1.9.3/snap.min.js"></script>
+
+    <script src="lib/headroomjs/headroom.min.js"></script>
+    <script src="lib/headroomjs/jQuery.headroom.js"></script>
+    <script src="lib/headroomjs/jQuery.headroom.min.js"></script>
+    <script src="js/index.js"></script>
 </head>
 
 <body>
-    <div class="contents">
-        <img src="http://placehold.jp/800x500.png">
-        <div class="sennshu">
-            <center>お気に入り選手を見つけて</center>
-            <center>投資しよう！</center>
+    <div class="drawers">
+        <div class="right-drawer">
+            <div id="close">close</div>
         </div>
-        <div class="header">
-            カブドラ
+    </div>
+    <div id="contents" class="contents">
+        <div class="top-image">
+            <div class="sennshu">
+                <center>お気に入り選手を見つけて</center>
+                <center>投資しよう！</center>
+            </div>
+        </div>
+        <div id="headroom" class="headroom">
+            <h1>カブドラ</h1>
+            <div id="open-at-right">
+                <img class="ham" src="../openapplab-webapp-2015/img/btn-hamburger.png">
+            </div>
         </div>
         <div class="button-area">
-            <a href="">
+            <a href="https://twitter.com/?lang=ja">
                 <div class="twitter">Twitterでログイン</div>
             </a>
-            <a href="">
+            <a href="https://ja-jp.facebook.com/">
                 <div class="facebook">Facebookでログイン</div>
             </a>
         </div>
@@ -35,31 +45,32 @@
             <h2>人気急上昇！パ・リーグ推しメン！</h2>
         </div>
         <div class="mem">
-            <div class="white-box">
-                <div class="image">
-                    <img src="http://placehold.jp/350x350.png">
+            <div class="mem-box">
+                <div class="mem-image">
+                    <img src="http://placehold.jp/300x350.png">
                 </div>
                 <p>中田翔選手</p>
                 <h3>4649 point up!</h3>
                 <a href="">
-                    <div toushi>
+                    <div class="toushi">
                         投資する
                     </div>
                 </a>
             </div>
-            <div class="white-box2">
-                <div class="man-image">
-                    <img src="http://placehold.jp/350x350.png">
+            <div class="mem-box">
+                <div class="mem-image">
+                    <img src="http://placehold.jp/300x350.png">
                 </div>
                 <p>中田翔選手</p>
                 <h3>4537 point UP!</h3>
                 <a href="">
-                    <div class="toshi">
+                    <div class="toushi">
                         投資する
                     </div>
                 </a>
             </div>
         </div>
+    </div>
 </body>
 
 </html>
